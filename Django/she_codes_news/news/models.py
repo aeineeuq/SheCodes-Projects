@@ -10,3 +10,7 @@ class NewsStory(models.Model):
     )
     pub_date = models.DateTimeField()
     content = models.TextField()
+    image_url = models.URLField(max_length = 200, default="https://picsum.photos/199")
+
+    class Meta:
+        ordering = ['pub_date'] #ordering by date

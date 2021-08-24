@@ -8,4 +8,3 @@ urlpatterns = [
     path('<int:pk>/', views.StoryView.as_view(), name='story'), # /news/3
     path('add-story/', views.AddStoryView.as_view(), name='newStory') # /news/add-story
 ]
- 
