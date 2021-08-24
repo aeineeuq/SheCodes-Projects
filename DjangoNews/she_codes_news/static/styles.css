@@ -52,3 +52,10 @@ a {
 a, p {
     font-family: monospace;
 }
+ 
+/* Form in AddStory.html which creates a new story */
+#createStory {
+    text-decoration: bold;
+    color: red;
+    
+}
