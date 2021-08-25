@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&display=swap');
 
+html{font-family: Arial,Helvetica,sans-serif;
+    
+}
+
 body {
     background-color: #E9E9E9;
 }
@@ -16,15 +20,15 @@ img {
 }
 
 h1 {
-    font-family: 'Montserrat Subrayada', sans-serif;
+    /* font-family: 'Montserrat Subrayada', sans-serif; */
     text-decoration: none;
     font-size: 4rem;
     margin: 0;
 }
 
-h2 {
+/* h2 {
    font-family: 'Montserrat Subrayada', sans-serif; 
-}
+} */
 
 h3 {
     font-size: 2rem;
@@ -54,8 +58,8 @@ a, p {
 }
  
 /* Form in AddStory.html which creates a new story */
-#createStory {
-    text-decoration: bold;
+/* .createStory {
     color: red;
     
-}
+} */
+/* changed form attributes via forms.py widget attributes */
