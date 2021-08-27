@@ -15,7 +15,7 @@ header {
     border-bottom: 1px solid #000;
 }
 
-img {
+img:hover {
     filter: grayscale(100%);
 }
 
@@ -56,7 +56,22 @@ a {
 a, p {
     font-family: monospace;
 }
- 
+
+a:hover, button:hover {
+    color: #ffffff;
+    background-color:#C08497;
+    font-weight: bold;
+    border-radius:25px;
+    vertical-align: auto;
+}
+
+button {
+    font-family: monospace;
+    border-radius:25px;
+    width:50%;
+    transition-duration: 0.1s;
+
+}
 /* Form in AddStory.html which creates a new story */
 /* .createStory {
     color: red;
