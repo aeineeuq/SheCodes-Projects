@@ -5,8 +5,8 @@
         <a href="{% url 'news:newStory' %}">Write New Story</a>
         <button type="submit" onclick="location.href='{% url "logout" %}'">Logout</button>
     {% else %}
-        <button type="submit" onclick="location.href='{% url "login" %}'">Login</button>
         <a href="{% url 'users:createAccount' %}">Sign Up</a>
+        <button type="submit" onclick="location.href='{% url "login" %}'">Login</button>
     {% endif %}
   
 </nav>
