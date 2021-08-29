@@ -13,6 +13,6 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='newsstory',
             name='img_url',
-            field=models.URLField(default='https://aeineeuq.github.io/assets/Avatar-hi.png', max_length=250),
+            field=models.URLField(default='https://picsum.photos/600', max_length=250),
         ),
     ]
