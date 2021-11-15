@@ -1,0 +1,11 @@
+Submission Part B
+
+Link to GitHub repository containing the code
+https://github.com/aeineeuq/crowdfunding/
+
+Link to the Deployed Project
+https://obscure-plains-79907.herokuapp.com/
+
+Link to Previous Submission Part A
+https://github.com/aeineeuq/Pawtreon
+https://fierce-falls-82144.herokuapp.com/
